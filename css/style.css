@@ -192,10 +192,12 @@ hr {
 	margin-left: 10px;
 }
 #about img {
-	border-radius: 50%;
+	/* border-radius: 50%; */
 	width: 200px;
 	height: 200px;
 	display: inline-block;
+	border: 1px solid black;
+	margin: 2px;
 }
 #about p {
 	margin-top: 20px;
