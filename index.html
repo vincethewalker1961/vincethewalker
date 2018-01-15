@@ -56,17 +56,23 @@
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
         <a class="navbar-brand page-scroll" href="#page-top">Vincent Walker</a> </div>
       
-      <!-- Collect the nav links, forms, and other content for toggling -->
+      <!-- Collect the nav links, forms, and other content for toggling --> <!-- Place below here -->
       <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
         <ul class="nav navbar-nav">
           <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
           <li class="hidden"> <a href="#page-top"></a> </li>
           <li> <a class="page-scroll" href="#about">About</a> </li>
           <!-- <li> <a class="page-scroll" href="#skills">Skills</a> </li> -->
-          <!-- <li> <a class="page-scroll" href="#skills">Portfolio</a> </li> -->
+
+          <li class ="dropdown">
+          <li> <a class="page-scroll dropdown-toggle" data-toggle="dropdown" href="#skills">Portfolio <b class="caret"></b></a> 
+          	<ul class="dropdown-menu">
           <li> <a class="page-scroll" href="https://infinite-dusk-94775.herokuapp.com">Business Den</a> </li>
           <li> <a class="page-scroll" href=" https://safe-gorge-17111.herokuapp.com/">On The Move</a> </li>
-          
+          	</ul>
+          	</li> 
+         </li>
+          <!-- Place above here -->
           <li> <a class="page-scroll" href="#resume">Resume</a> </li>
           <li> <a class="page-scroll" href="#contact">Contact</a> </li>
         </ul>
