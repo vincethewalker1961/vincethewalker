@@ -512,6 +512,10 @@ ol.type li a:hover {
 	margin-bottom: 0;
 }
 /* Contact Section */
+.msg {
+	visibility: hidden;
+}
+
 #contact {
 	padding: 100px 0 40px 0;
 	color: #121d1f;
@@ -585,7 +589,7 @@ color: #2c3e50;
 	margin-top: 60px;
 }
 #contact .social ul li {
-	display: inline-block;
+	display: inline;
 	margin: 0 20px;
 }
 #contact .social i.fa {
@@ -649,6 +653,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	letter-spacing: -2px;
 }
 .intro .name {
+	font-family: "Junction-regular";
 	font-weight: 600;
 }
 .intro .intro-text {
