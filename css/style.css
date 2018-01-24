@@ -653,7 +653,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	letter-spacing: -2px;
 }
 .intro .name {
-	font-family: "Junction-regular";
+	font-family: "chalkduster";
+	font-style: oblique;
+	text-transform: capitalize;
 	font-weight: 600;
 }
 .intro .intro-text {
