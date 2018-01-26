@@ -513,13 +513,13 @@ ol.type li a:hover {
 }
 /* Contact Section */
 .msg {
-	visibility: hidden;
+	
 }
 
 #contact {
 	padding: 100px 0 40px 0;
-	color: #121d1f;
-	background: #7bc3d1;
+	color: #FFFFFF;
+	background: #1A4C93;
 }
 #contact h2 {
 	color: #fff;
@@ -537,10 +537,9 @@ ol.type li a:hover {
 	padding: 30px 0;
 }
 #contact i.fa {
-	color: #121d1f;
+	color: #FFFFFF;
 	margin-bottom: 10px;
-}
-#contact .text-danger {
+}.text-danger {
 	color: #E87E04;
 	text-align: left;
 }

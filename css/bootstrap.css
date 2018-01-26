@@ -1082,6 +1082,7 @@ th {
 }
 html {
   font-size: 10px;
+  color:#FFFFFF;
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -3463,7 +3464,7 @@ tbody.collapse.in {
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;
-  color: #33ccff;
+  color: #1A4C93;
   white-space: nowrap;
 }
 .dropdown-menu > li > a:hover,
@@ -4242,6 +4243,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
     padding: 5px 15px 5px 25px;
+    color: #DAA520;
   }
   .navbar-nav .open .dropdown-menu > li > a {
     line-height: 20px;
