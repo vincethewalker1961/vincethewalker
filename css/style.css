@@ -30,6 +30,10 @@ h5 {
 	font-weight: 700;
 	line-height: 20px;
 }
+
+.resume {
+	visibility: hidden;
+}
 p.intro {
 	font-size: 16px;
 	margin: 12px 0 0;
