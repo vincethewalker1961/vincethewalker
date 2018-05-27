@@ -1,3 +1,10 @@
+// links to heroku apps
+ $(document).ready(function(){
+    $("ul.dropdown-menu").click(function(){
+    alert("This may take a few seconds to load..");
+});
+});
+    
 
 function main() {
 
