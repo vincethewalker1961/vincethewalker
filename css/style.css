@@ -1,5 +1,5 @@
 body, html {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif; font-weight: bold;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #656c6d;
@@ -194,6 +194,9 @@ hr {
 }
 #about .about-text {
 	margin-left: 10px;
+}
+.nice {
+	font-weight: bold;
 }
 #about img {
 	/* border-radius: 50%; */
