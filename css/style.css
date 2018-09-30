@@ -1,3 +1,5 @@
+
+
 body, html {
 	font-family: 'Open Sans', sans-serif; font-weight: bold;
 	text-rendering: optimizeLegibility !important;
@@ -5,6 +7,7 @@ body, html {
 	color: #656c6d;
 	width: 100% !important;
 	height: 100% !important;
+	 
 }
 h1 {
 	font-weight: 700;
@@ -182,23 +185,31 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../img/intro-bg.jpg) no-repeat center top;
+	background: url(../img/intro-cn.jpg) no-repeat center top; 
 	background-color: #7bc3d1;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 }
+
 .section-title.center {
 	padding: 25px 0 45px 0;
 }
 /* About Section */
 #about {
 	padding: 100px 0;
-	background: #f6f6f6;
+	background: #79867B;
+	
 }
+
+#about h2 {
+	color: #fff;
+}
+
 #about .about-text {
 	margin-left: 10px;
+	color: #fff;
 }
 .nice {
 	font-weight: bold;
