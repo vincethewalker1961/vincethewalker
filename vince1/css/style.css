@@ -7,8 +7,10 @@ body, html {
 	color: #656c6d;
 	width: 100% !important;
 	height: 100% !important;
-	 
 }
+
+a[href^=tel] { color: inherit; text-decoration: none; }
+
 h1 {
 	font-weight: 700;
 }
@@ -34,9 +36,7 @@ h5 {
 	line-height: 20px;
 }
 
-.resume {
-	visibility: hidden;
-}
+
 p.intro {
 	font-size: 16px;
 	margin: 12px 0 0;
@@ -185,7 +185,7 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	
+	#
 }
 
 .intro, mySlides, #cf {
@@ -439,6 +439,7 @@ ol.type li a:hover {
 #resume {
 	padding: 100px 0;
 	background: #f6f6f6;
+	display: none;
 }
 .timeline {
 	position: relative;
@@ -540,14 +541,15 @@ ol.type li a:hover {
 	margin-bottom: 0;
 }
 /* Contact Section */
-.msg {
-	
+#contactForm {
+	display: none;
 }
 
 #contact {
 	padding: 100px 0 40px 0;
 	color: #FFFFFF;
 	background: #79867B;
+	position: relative;
 }
 #contact h2 {
 	color: #fff;
@@ -563,6 +565,7 @@ ol.type li a:hover {
 }
 #contact form {
 	padding: 30px 0;
+	
 }
 #contact i.fa {
 	color: #FFFFFF;
@@ -613,7 +616,8 @@ color: #2c3e50;
 color: #2c3e50;
 }
 #contact .social {
-	margin-top: 60px;
+	 margin-top: 60px; 
+
 }
 #contact .social ul li {
 	display: inline;
@@ -635,6 +639,7 @@ color: #2c3e50;
 	padding: 10px 20px;
 	color: #fff;
 	margin-top: 15px;
+
 }
 #contact .btn:hover, #contact .btn:focus {
 	background-color: #121d1f;
@@ -646,6 +651,13 @@ color: #2c3e50;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
+.tel-number {
+	text-decoration: none;
+	color: white;
+}
+
+	
+
 a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
 	outline: none;
 	outline-offset: none;
@@ -731,6 +743,8 @@ header .intro-text {
 	text-align: left;
 }
 }
+
+
 
 @media(min-width:992px) {
 #here-me h1 {
